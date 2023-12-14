@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Vending Machine Container */
+.vending-machine {
+  width: 300px;
+  height: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
+  position: relative;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Shelves */
+.shelf {
+  border-bottom: 2px solid black;
+  height: 33%;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Can */
+.can {
+  width: 50px;
+  height: 70px;
+  background-color: red;
+  border-radius: 25px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Bag of Chips */
+.chips {
+  width: 70px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 10px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Candy Bar */
+.candy-bar {
+  width: 60px;
+  height: 20px;
+  background-color: brown;
+  position: absolute;
+  top: 200px;
+  left: 40px;
 }
