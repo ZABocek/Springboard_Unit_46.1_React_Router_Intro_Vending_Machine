@@ -1,15 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 function VendingMachine() {
+  const history = useHistory();
+
+  const navigateTo = (path) => {
+    history.push(path);
+  };
+
   return (
-    <div>
+    <div className="vending-machine">
       <h1>Welcome to the Vending Machine</h1>
-      <ul>
-        <li><Link to="/snack/chips">Chips</Link></li>
-        <li><Link to="/snack/soda">Soda</Link></li>
-        <li><Link to="/snack/candy">Candy</Link></li>
-      </ul>
+      <div className="shelf chips" onClick={() => navigateTo("/snack/chips")}></div>
+      <div className="shelf soda" onClick={() => navigateTo("/snack/soda")}></div>
+      <div className="shelf candy-bar" onClick={() => navigateTo("/snack/candy")}></div>
     </div>
   );
 }
