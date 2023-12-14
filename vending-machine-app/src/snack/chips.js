@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import chipsImage from './karsten-winegeart-4jUffy7Sx2w-unsplash.jpg';
+import chipsImage from './pics/karsten-winegeart-4jUffy7Sx2w-unsplash.jpg';
 // Import other images similarly
 
 function Chips() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import canImage from './justus-menke-YIx0N2ZUaGg-unsplash.jpg';
+import canImage from './pics/justus-menke-YIx0N2ZUaGg-unsplash.jpg';
 // Import other images similarly
 
 function Soda() {

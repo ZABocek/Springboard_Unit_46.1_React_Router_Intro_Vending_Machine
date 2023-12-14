@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import candyImage from './denny-muller-mGP8gyGb8zY-unsplash.jpg';
+import candyImage from './pics/denny-muller-mGP8gyGb8zY-unsplash.jpg';
 // Import other images similarly
 
 function CandyBar() {
