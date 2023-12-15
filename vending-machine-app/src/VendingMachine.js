@@ -15,18 +15,15 @@ function VendingMachine() {
       <div className="vending-machine">
         <div className="shelf" onClick={() => navigateTo("/snack/soda")}>
           <div className="can"></div>
-          <div classname="text1" type="text">Grab a soda!</div>
-          {/* Add more cans if needed */}
+          <div className="text1" type="text">Grab a soda!</div>
         </div>
         <div className="shelf" onClick={() => navigateTo("/snack/chips")}>
           <div className="chips"></div>
-          <div classname="text2" type="text">Grab some chips!</div>
-          {/* Add more bags of chips if needed */}
+          <div className="text2" type="text">Grab some chips!</div>
         </div>
         <div className="shelf" onClick={() => navigateTo("/snack/candy")}>
           <div className="candy-bar"></div>
-          <div classname="text3" type="text">Grab a candy bar!</div>
-          {/* Add more candy bars if needed */}
+          <div className="text3" type="text">Grab a candy bar!</div>
         </div>
       </div>
     </div>
