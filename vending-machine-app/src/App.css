@@ -56,7 +56,7 @@
 /* Text for Soda */
 .text1 {
   position: absolute;
-  bottom: 35px; /* Adjust as needed */
+  bottom: 10px; /* Adjust as needed */
   left: 70px; /* Position to the left of the soda can */
   font-family: 'Cursive';
   max-width: 200px; /* Prevent overflow */
@@ -65,7 +65,7 @@
 /* Text for Chips */
 .text2 {
   position: absolute;
-  bottom: 185px; /* Adjust as needed */
+  bottom: 10px; /* Adjust as needed */
   left: 90px; /* Position to the left of the chips bag */
   font-family: 'Cursive';
   max-width: 200px;
@@ -74,7 +74,7 @@
 /* Text for Candy Bar */
 .text3 {
   position: absolute;
-  bottom: 335px; /* Adjust as needed */
+  bottom: 10px; /* Adjust as needed */
   left: 80px; /* Position to the left of the candy bar */
   font-family: 'Cursive';
   max-width: 200px;
