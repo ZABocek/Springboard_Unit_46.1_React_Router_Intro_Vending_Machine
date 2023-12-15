@@ -29,3 +29,5 @@ function VendingMachine() {
     </div>
   );
 }
+
+export default VendingMachine;
