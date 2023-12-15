@@ -11,6 +11,7 @@
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   margin: 20px;
   padding: 10px;
+  padding-top: 50px; /* Add padding at the top */
 }
 
 /* Shelves */
