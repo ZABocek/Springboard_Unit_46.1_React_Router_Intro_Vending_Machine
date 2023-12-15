@@ -41,7 +41,7 @@
   border-radius: 10px;
   position: absolute;
   bottom: 10px;
-  left: 20px;
+  left: 10px;
 }
 
 /* Candy Bar */
@@ -51,5 +51,5 @@
   background-color: brown;
   position: absolute;
   bottom: 10px;
-  left: 40px;
+  left: 10px;
 }
