@@ -1,7 +1,3 @@
-import React from 'react';
-import './App.css';
-import { useNavigate } from 'react-router-dom';
-
 function VendingMachine() {
   const navigate = useNavigate();
 
@@ -13,12 +9,19 @@ function VendingMachine() {
     <div>
       <h1>Welcome to the Vending Machine</h1>
       <div className="vending-machine">
-        <div className="shelf chips" onClick={() => navigateTo("/snack/chips")}></div>
-        <div className="shelf soda" onClick={() => navigateTo("/snack/soda")}></div>
-        <div className="shelf candy-bar" onClick={() => navigateTo("/snack/candy")}></div>
+        <div className="shelf" onClick={() => navigateTo("/snack/soda")}>
+          <div className="can"></div>
+          {/* Add more cans if needed */}
+        </div>
+        <div className="shelf" onClick={() => navigateTo("/snack/chips")}>
+          <div className="chips"></div>
+          {/* Add more bags of chips if needed */}
+        </div>
+        <div className="shelf" onClick={() => navigateTo("/snack/candy")}>
+          <div className="candy-bar"></div>
+          {/* Add more candy bars if needed */}
+        </div>
       </div>
     </div>
   );
 }
-
-export default VendingMachine;
