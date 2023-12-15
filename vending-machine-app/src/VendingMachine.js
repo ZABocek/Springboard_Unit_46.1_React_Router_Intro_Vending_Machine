@@ -6,8 +6,8 @@ function VendingMachine() {
   const navigate = useNavigate();
 
   const navigateTo = (path) => {
-    navigate.push(path);
-  };
+    navigate(path);
+  };  
 
   return (
     <div>
