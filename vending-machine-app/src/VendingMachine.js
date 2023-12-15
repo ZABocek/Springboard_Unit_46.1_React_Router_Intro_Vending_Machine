@@ -1,11 +1,11 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function VendingMachine() {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const navigateTo = (path) => {
-    history.push(path);
+    navigate.push(path);
   };
 
   return (

@@ -1,19 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
-import Chips from './Chips';
-import Soda from './Soda';
-import CandyBar from './Candy'; // Ensure this is imported with the correct name
+import Chips from './snack/Chips';
+import Soda from './snack/Soda';
+import CandyBar from './snack/Candy'; // Ensure this is imported with the correct name
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={VendingMachine} />
-        <Route path="/snack/chips" component={Chips} />
-        <Route path="/snack/soda" component={Soda} />
-        <Route path="/snack/candy" component={CandyBar} />
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<VendingMachine />} />
+        <Route path="/snack/chips" element={<Chips />} />
+        <Route path="/snack/soda" element={<Soda />} />
+        <Route path="/snack/candy" element={<CandyBar />} />
+      </Routes>
     </Router>
   );
 }
